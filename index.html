@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="QrGRÁTISON — gere QR Codes grátis, sem limite de geração e sem cadastro." />
+  <meta name="theme-color" content="#08090b" />
+  <title>QrGRÁTISON — QR Code grátis, sem limite</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="QrGRÁTISON início">
+      <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+      <span>Qr<span>GRÁTISON</span></span>
+    </a>
+    <div class="trust-pill">100% gratuito · sem cadastro</div>
+  </header>
+
+  <main id="top" class="page-shell">
+    <section class="hero">
+      <div class="hero-copy">
+        <div class="eyebrow">QR CODE SEM ENROLAÇÃO</div>
+        <h1>Seu QR Code.<br><span>Grátis mesmo.</span></h1>
+        <p>Gere, baixe e use. Sem limite de geração, sem cadastro e sem aquela história de bloquear o QR depois de atingir uma franquia.</p>
+        <div class="benefits" aria-label="Benefícios">
+          <span>✓ Sem limite</span>
+          <span>✓ Sem cadastro</span>
+          <span>✓ Geração local</span>
+        </div>
+      </div>
+
+      <section class="generator-card" aria-labelledby="generator-title">
+        <div class="card-head">
+          <div>
+            <h2 id="generator-title">Gerar QR Code</h2>
+            <p>Cole um link ou escreva qualquer conteúdo.</p>
+          </div>
+          <span class="live-dot">ONLINE</span>
+        </div>
+
+        <label for="content">Conteúdo</label>
+        <div class="input-wrap">
+          <textarea id="content" rows="4" maxlength="2953" placeholder="https://seusite.com.br" spellcheck="false" autocomplete="off"></textarea>
+          <button id="clearBtn" class="clear-btn" type="button" aria-label="Limpar conteúdo" title="Limpar">×</button>
+        </div>
+        <div class="counter"><span id="counter">0</span>/2953</div>
+
+        <div class="options-grid">
+          <div>
+            <label for="darkColor">QR Code</label>
+            <div class="color-field">
+              <input id="darkColor" type="color" value="#111111" />
+              <span id="darkColorText">#111111</span>
+            </div>
+          </div>
+          <div>
+            <label for="lightColor">Fundo</label>
+            <div class="color-field">
+              <input id="lightColor" type="color" value="#FFFFFF" />
+              <span id="lightColorText">#FFFFFF</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="size-row">
+          <label for="size">Tamanho</label>
+          <div class="range-row">
+            <input id="size" type="range" min="180" max="1000" step="10" value="500" />
+            <output id="sizeValue" for="size">500px</output>
+          </div>
+        </div>
+
+        <button id="generateBtn" class="primary-btn" type="button">GERAR QR CODE <span>→</span></button>
+
+        <div id="result" class="result" hidden>
+          <div class="result-top">
+            <span>Seu QR Code está pronto</span>
+            <button id="newBtn" class="text-btn" type="button">Novo QR</button>
+          </div>
+          <div id="qrcode" class="qr-preview" aria-label="Prévia do QR Code"></div>
+          <button id="pngBtn" class="secondary-btn full" type="button">Baixar PNG</button>
+          <p class="local-note">O QR Code é gerado no seu navegador. O conteúdo não é enviado para o QrGRÁTISON.</p>
+        </div>
+
+        <div id="error" class="error" role="alert" hidden></div>
+      </section>
+    </section>
+
+    <section class="info-band">
+      <div>
+        <strong>Por que não expira?</strong>
+        <p>O QR Code estático guarda o conteúdo dentro do próprio código. Ele não depende de uma franquia de scans ou de gerações do QrGRÁTISON.</p>
+      </div>
+      <div>
+        <strong>Como funciona?</strong>
+        <p>A geração acontece no dispositivo do visitante. Seu servidor não precisa gerar e armazenar cada QR Code.</p>
+      </div>
+      <div>
+        <strong>Importante</strong>
+        <p>O QR não “vence”, mas o endereço colocado nele pode deixar de existir ou mudar no futuro.</p>
+      </div>
+    </section>
+
+    <div class="ad-slot" aria-label="Espaço reservado para publicidade">
+      <span>ESPAÇO PARA PUBLICIDADE</span>
+    </div>
+  </main>
+
+  <footer>
+    <span>© <span id="year"></span> QrGRÁTISON</span>
+    <span>Feito para gerar. Sem complicar.</span>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/gh/davidshimjs/qrcodejs@master/qrcode.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
