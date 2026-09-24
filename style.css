@@ -108,3 +108,14 @@ footer { max-width: 1180px; margin: 0 auto; padding: 28px; display: flex; justif
   .generator-card { padding: 20px; border-radius: 20px; }
   footer { padding: 24px 16px; flex-direction: column; }
 }
+
+.link {
+  color: #9e9e9e;
+  text-decoration: none;
+
+}
+
+.link:hover {
+  text-decoration:dashed;
+  color: #ececec;
+}
