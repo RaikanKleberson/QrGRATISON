@@ -24,7 +24,7 @@ Por isso, o projeto pode atender um grande volume de gerações sem transformar 
 - HTML
 - CSS
 - JavaScript
-- QRCode.js, uma biblioteca JavaScript para geração de QR Codes com licença MIT. A documentação do projeto mostra o uso direto no navegador. citeturn655453search0turn655453search2
+- QRCode.js, uma biblioteca JavaScript para geração de QR Codes com licença MIT. A documentação do projeto mostra o uso direto no navegador.
 
 Nesta primeira versão, a biblioteca é carregada por jsDelivr. Na próxima etapa podemos embuti-la no próprio projeto para eliminar essa dependência externa.
 
