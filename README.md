@@ -6,10 +6,12 @@ O **QrGRÁTISON** é um gerador de QR Codes estáticos gratuito, simples e rápi
 
 ## 🌐 Acesse
 
-**Produção:**
-https://SEU-USUARIO.github.io/SEU-REPOSITORIO/
+**GitHub:**
+https://github.com/RaikanKleberson/QrGRATISON
 
-> Substitua o endereço acima pelo link do GitHub Pages do projeto.
+**GitHub Pages:**
+
+> Adicione aqui o endereço gerado pelo GitHub Pages quando a publicação estiver ativa.
 
 ---
 
@@ -130,7 +132,7 @@ Atualmente, a biblioteca pode ser carregada por CDN. Em uma futura versão, ela 
 ## 📁 Estrutura do projeto
 
 ```text
-qrgratison/
+QrGRATISON/
 ├── index.html
 ├── style.css
 ├── app.js
@@ -188,6 +190,10 @@ GitHub Pages
 Site público
 ```
 
+Repositório:
+
+https://github.com/RaikanKleberson/QrGRATISON
+
 ---
 
 ## 💰 Modelo de negócio
@@ -213,7 +219,13 @@ Contribuições são bem-vindas.
 Para contribuir:
 
 ```bash
-git clone https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git
+git clone https://github.com/RaikanKleberson/QrGRATISON.git
+```
+
+Entre na pasta:
+
+```bash
+cd QrGRATISON
 ```
 
 Crie uma branch:
@@ -273,6 +285,9 @@ Gostou do QrGRÁTISON?
 
 Dê uma ⭐ no GitHub e compartilhe o projeto.
 
+**Repositório:**
+https://github.com/RaikanKleberson/QrGRATISON
+
 ---
 
 ## 📄 Licença
@@ -286,4 +301,5 @@ A licença do próprio QrGRÁTISON deverá ser definida conforme o modelo de abe
 ## 🇧🇷 Feito no Brasil
 
 **QrGRÁTISON**
+
 QR Code grátis, sem limite e sem complicação.
